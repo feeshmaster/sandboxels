@@ -64,7 +64,8 @@ let cssForDebug = `
     max-width: 700px;
     padding: 10px;
     background-color: rgb(31, 31, 31);
-    overflow-x: hidden;
+    overflow-x: wrap;
+    overflow-wrap: break-word;
     z-index: 10;
 }
 `,
